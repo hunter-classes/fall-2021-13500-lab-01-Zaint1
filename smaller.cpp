@@ -1,6 +1,6 @@
 /*
 	Author: Zhipeng Lin 
-	Course: CS13500
+	Course: CSCI13500
 	Instructor: Mike Zamansky
 	Assignment: Lab 1A
 	
