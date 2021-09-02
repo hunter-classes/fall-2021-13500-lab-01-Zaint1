@@ -21,6 +21,7 @@ int main() {
 	cout << "Enter a month: ";
 	int month = 0;
 	cin >> month;
+	cout << endl;
 	
 	bool isLeapYear = false;
 	if (inputYear % 4 == 0){
@@ -50,10 +51,6 @@ int main() {
 		}
 	}
 	
-	if (isLeapYear){
-		cout << "The year " << inputYear << " is a leap year and has " << daysInCurrentMonth << " days." << endl;
-	}
-	else{
-		cout << "The year " << inputYear << " is not a leap year and has " << daysInCurrentMonth << " days." << endl;
-	}
+	cout << "Year: " << inputYear << endl;
+	cout << "Days in Month " << month << ": " << daysInCurrentMonth << endl;
 }
